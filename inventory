@@ -1,3 +1,14 @@
 target_node1 apache_package=apache2 php_package=libapache2-mod-php
 target_node2 apache_package=apache2 php_package=libapache2-mod-php
 mcentos apache_package=httpd php_package=php
+
+[web_servers]
+target_node1
+target_node2
+mcentos
+
+[db_servers]
+mcentos
+
+[file_servers]
+mcentos
